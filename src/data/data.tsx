@@ -89,9 +89,9 @@ export const aboutData: About = {
     {label: 'Age', text: '21', Icon: CalendarIcon},
     {label: 'Location', text: 'Benevento, BN', Icon: MapIcon},
     {label: 'Nationality', text: 'Italian', Icon: FlagIcon},
-    { label: 'Interests', text: 'VideoGame, Electronics, Nature', Icon: SparklesIcon},
-    { label: 'Accademy', text: 'AIV - Game Developer', Icon: AcademicCapIcon},
-    { label: 'Graduate', text: 'IT Technology', Icon: AcademicCapIcon}
+    {label: 'Interests', text: 'VideoGame, Electronics, Nature', Icon: SparklesIcon},
+    {label: 'Accademy', text: 'AIV - Game Developer', Icon: AcademicCapIcon},
+    {label: 'Graduate', text: 'IT Technology', Icon: AcademicCapIcon}
   ],
 };
 
@@ -288,8 +288,8 @@ export const experience: TimelineItem[] = [
  * Social items
  */
 export const socialLinks: Social[] = [
-    { label: 'Github', Icon: GithubIcon, href: 'https://github.com/Thefoxy1978'},
-    { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/giulio-gentile-a37152215/'},
+    {label: 'Github', Icon: GithubIcon, href: 'https://github.com/Thefoxy1978'},
+    {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/giulio-gentile-a37152215/'},
     {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/thefoxy1978/'},
     {label: 'Email', Icon: EmailIcon, href: 'mailto:gengiulio02@hotmail.com'},
 ];
