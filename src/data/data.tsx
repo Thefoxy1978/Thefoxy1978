@@ -17,6 +17,7 @@ import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
@@ -226,6 +227,12 @@ export const portfolioItems: PortfolioItem[] = [
         description: 'Project used to test OpenAI Unity Package.',
         url: 'https://thefoxy1978.itch.io/emily-ia',
         image: porfolioImage5,
+    },
+    {
+        title: 'Operation Force',
+        description: '3D game,developed on UE5 with another programmer in just 2 weeks.',
+        url: 'https://youtu.be/PH-Xci30Ci0',
+        image: porfolioImage6,
     },
   
 ];
