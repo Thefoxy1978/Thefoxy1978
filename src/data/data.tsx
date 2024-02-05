@@ -72,7 +72,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-          href: 'https://drive.google.com/file/d/1eaZbZRSXH1BoUbB3ncFe7Lul76v5I6Qx/view?usp=sharing',
+          href: 'https://drive.google.com/file/d/1_1okEpMkfxGzLqfxG_LctRAxwpFtFlyF/view?usp=sharing',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -118,24 +118,32 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'C#',
-        level: 1,
+        level: 9,
       },
       {
         name: 'C++',
-        level: 0,
+        level: 8,
       },
       {
         name: 'C',
-        level: 0,
+        level: 8,
         },
         {
             name: 'Python',
-            level: 8,
+            level: 7,
         },
         {
-          name: 'Lua',
-          level: 8,
-      },
+            name: 'PHP',
+            level: 6,
+        },
+        {
+            name: 'HTML',
+            level: 7,
+        },
+        {
+            name: 'CSS',
+            level: 6,
+        },
     ],
   },
   {
@@ -169,6 +177,10 @@ export const skills: SkillGroup[] = [
             {
                 name: 'Git Hub',
                 level: 8,
+            },
+            {
+                name: 'Photoshop',
+                level: 7,
             },
             {
                 name: 'HxD',
@@ -232,7 +244,7 @@ export const education: TimelineItem[] = [
   {
     date: 'July 2021',
     location: 'Istituto di Istruzione Superiore "S. Rampone',
-    title: 'Istituto di Istruzione Superiore "S. Rampone ',
+    title: 'Graduate IT Technology ',
         content: <p>
             Graduate IT Technology, the basics I received in 5 years are: C, C#, C++, Python, PHP, HTML, CSS.</p>,
   },
@@ -286,5 +298,5 @@ export const socialLinks: Social[] = [
     {label: 'Github', Icon: GithubIcon, href: 'https://github.com/Thefoxy1978'},
     {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/giulio-gentile-a37152215/'},
     {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/thefoxy1978/'},
-    {label: 'Email', Icon: EmailIcon, href: 'mailto:gengiulio2@gmail.com'},
+    {label: 'Email', Icon: EmailIcon, href: 'mailto:gengiulio02@hotmail.com'},
 ];
