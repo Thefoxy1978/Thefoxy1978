@@ -72,7 +72,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-          href: 'https://drive.google.com/file/d/1cnFScVarwYGRI4mQaQDHBIxrVZwq7RyA/view?usp=sharing',
+          href: 'https://drive.google.com/file/d/1m5lTZgFcCHWT6Smm3Cjb7tqV729NNc1g/view?usp=sharing',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -132,18 +132,6 @@ export const skills: SkillGroup[] = [
             name: 'Python',
             level: 7,
         },
-        {
-            name: 'PHP',
-            level: 6,
-        },
-        {
-            name: 'HTML',
-            level: 7,
-        },
-        {
-            name: 'CSS',
-            level: 6,
-        },
     ],
   },
   {
@@ -177,10 +165,6 @@ export const skills: SkillGroup[] = [
             {
                 name: 'Git Hub',
                 level: 8,
-            },
-            {
-                name: 'Photoshop',
-                level: 7,
             },
             {
                 name: 'HxD',
@@ -244,7 +228,7 @@ export const education: TimelineItem[] = [
   {
     date: 'July 2021',
     location: 'Istituto di Istruzione Superiore "S. Rampone',
-    title: 'Graduate IT Technology ',
+    title: 'Istituto di Istruzione Superiore "S. Rampone ',
         content: <p>
             Graduate IT Technology, the basics I received in 5 years are: C, C#, C++, Python, PHP, HTML, CSS.</p>,
   },
