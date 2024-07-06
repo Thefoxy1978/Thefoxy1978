@@ -118,17 +118,24 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'C#',
-        level: 0,
+        level: 10,
       },
       {
         name: 'C++',
-        level: 8,
+        level: 10,
       },
       {
         name: 'C',
-        level: 8,
+        level: 10,
         },
-    
+        {
+            name: 'Python',
+            level: 10,
+        },
+        {
+            name: 'PHP',
+            level: 10,
+        },
     ],
   },
   {
@@ -136,15 +143,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Unity',
-        level: 9,
+        level: 10,
       },
       {
         name: 'Unreal Engine 5',
-        level: 8,
+        level: 10,
         },
         {
             name: 'Game Maker Studio ',
-            level: 7,
+            level: 10,
         },
     ],
     },
@@ -153,27 +160,27 @@ export const skills: SkillGroup[] = [
         skills: [
             {
                 name: 'Visual Code Studio',
-                level: 8,
+                level: 10,
             },
             {
                 name: 'Visual Studio',
-                level: 9,
+                level: 10,
             },
             {
                 name: 'Git Hub',
-                level: 8,
+                level: 10,
             },
             {
                 name: 'Photoshop',
-                level: 7,
+                level: 10,
             },
             {
                 name: 'HxD',
-                level: 6,
+                level: 10,
             },
             {
                 name: 'Ghidra',
-                level: 7,
+                level: 10,
             },
         ],
     },
@@ -248,20 +255,10 @@ export const experience: TimelineItem[] = [
     title: 'ESL Referee Admin Volunteer',
     content: (
       <p>
-           Management of international online tournaments and management of national tournaments online/offline.
+           Management of international/national online/offline tournaments.
       </p>
     ),
   },
-  {
-      date: 'March 2023 - June 2023',
-     location: 'Fusetti & Figlio',
-      title: 'Database administrator',
-    content: (
-      <p>
-          File management and reorganization.
-      </p>
-    ),
-    },
     {
         date: 'March 2019 - April 2019',
         location: 'Tree Hamester House',
@@ -283,5 +280,5 @@ export const socialLinks: Social[] = [
     {label: 'Github', Icon: GithubIcon, href: 'https://github.com/Thefoxy1978'},
     {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/giulio-gentile-a37152215/'},
     {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/thefoxy1978/'},
-    {label: 'Email', Icon: EmailIcon, href: 'mailto:gengiulio02@hotmail.com'},
+    {label: 'Email', Icon: EmailIcon, href: 'mailto:gengiulio2@gmail.com'},
 ];
