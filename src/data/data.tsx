@@ -136,6 +136,10 @@ export const skills: SkillGroup[] = [
             name: 'PHP',
             level: 10,
         },
+        {
+          name: 'Lua',
+          level: 10,
+      },
     ],
   },
   {
@@ -169,6 +173,10 @@ export const skills: SkillGroup[] = [
             {
                 name: 'Git Hub',
                 level: 10,
+            },
+            {
+              name: 'Eclipse',
+              level: 10,
             },
             {
                 name: 'Photoshop',
@@ -262,7 +270,7 @@ export const experience: TimelineItem[] = [
     {
         date: 'March 2019 - April 2019',
         location: 'Tree Hamester House',
-        title: 'Game Developer, Debugger',
+        title: 'Game Developer, Tester',
         content: (
             <p>
                 Team made up of 3 people, the only title published was "shy miner"
