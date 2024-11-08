@@ -18,6 +18,8 @@ import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
+import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
@@ -87,7 +89,7 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
     description: `I mainly work as a gameplay programmer or UI programmer, I work on Unity or Unreal Engine 5. I am a very sociable and open person who is not afraid to face new challenges.`,
   aboutItems: [
-    {label: 'Age', text: '21', Icon: CalendarIcon},
+    {label: 'Age', text: '22', Icon: CalendarIcon},
     {label: 'Location', text: 'Benevento, BN', Icon: MapIcon},
     {label: 'Nationality', text: 'Italian', Icon: FlagIcon},
     {label: 'Interests', text: 'VideoGame, Electronics, Nature', Icon: SparklesIcon},
@@ -200,14 +202,14 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Shy Miner',
-        description: ' 2d platform game, developed with 2 other people.',
-        url: 'https://play.google.com/store/apps/details?id=com.FrostCop.ShyMiner&hl=it&gl=US&pli=1',
+        description: '2D platform game, developed with 2 other people.',
+        url: 'https://drive.google.com/file/d/1I8iWH-LDVRW4RKzZbc3CTqyZHvUZWhM9/view?usp=sharing',
     image: porfolioImage1,
   },
   {
     title: 'Alive',
       description: '2D game, using a proprietary engine "AIV fast 2D".',
-      url: 'https://www.youtube.com/watch?v=AN6CTy9GKRg',
+      url: 'https://github.com/Thefoxy1978/EngineGame',
     image: porfolioImage2,
   },
   {
@@ -234,6 +236,19 @@ export const portfolioItems: PortfolioItem[] = [
         url: 'https://youtu.be/PH-Xci30Ci0',
         image: porfolioImage6,
     },
+    {
+      title: 'Nexum ',
+      description: '3D game,developed on Unity with another 2 programmer in just 3 weeks.',
+      url: 'https://github.com/Thefoxy1978/Nexum-CODE',
+      image: porfolioImage7,
+  },
+  {
+    title: 'TagPlay',
+    description: '3D game,developed on UE5 using c++.',
+    url: 'https://github.com/Thefoxy1978/TagGameCode',
+    image: porfolioImage8,
+},
+    
   
 ];
 
