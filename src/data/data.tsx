@@ -203,7 +203,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Shy Miner',
         description: '2D platform game, developed with 2 other people.',
-        url: 'https://drive.google.com/file/d/1I8iWH-LDVRW4RKzZbc3CTqyZHvUZWhM9/view?usp=sharing',
+        url: 'https://github.com/Thefoxy1978/Shy-Miner',
     image: porfolioImage1,
   },
   {
@@ -215,7 +215,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Super Orange',
       description: 'Endless 3D game, developed with 2 other people using Unity.',
-      url: 'https://youtube.com/shorts/Fv1ER0cPYSA',
+      url: 'https://github.com/Thefoxy1978/Super-Orange',
     image: porfolioImage3,
   },
   {
