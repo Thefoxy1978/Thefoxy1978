@@ -89,7 +89,7 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
     description: `I mainly work as a gameplay programmer or UI programmer, I work on Unity or Unreal Engine 5. I am a very sociable and open person who is not afraid to face new challenges.`,
   aboutItems: [
-    {label: 'Age', text: '22', Icon: CalendarIcon},
+    {label: 'Age', text: '23', Icon: CalendarIcon},
     {label: 'Location', text: 'Benevento, BN', Icon: MapIcon},
     {label: 'Nationality', text: 'Italian', Icon: FlagIcon},
     {label: 'Interests', text: 'VideoGame, Electronics, Nature', Icon: SparklesIcon},
@@ -282,13 +282,23 @@ export const experience: TimelineItem[] = [
       </p>
     ),
   },
+  {
+    date: 'March 2025 - April 2025',
+    location: 'Remedy Entertainment',
+    title: 'Playtest',
+    content: (
+        <p>
+            Test the game,report bugs in game and give feedback about the game.
+        </p>
+    ),
+},
     {
         date: 'March 2019 - April 2019',
         location: 'Tree Hamester House',
         title: 'Game Developer, Tester',
         content: (
             <p>
-                Team made up of 3 people, the only title published was "shy miner"
+                Team made up of 3 people, the only title published was "shy miner".
             </p>
         ),
     },
