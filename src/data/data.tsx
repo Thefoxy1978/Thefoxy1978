@@ -285,7 +285,7 @@ export const experience: TimelineItem[] = [
   {
     date: 'March 2025 - April 2025',
     location: 'Remedy Entertainment',
-    title: 'Playtest',
+    title: 'PlayTest - FBC: Firebreak',
     content: (
         <p>
             Test the game,report bugs in game and give feedback about the game.
