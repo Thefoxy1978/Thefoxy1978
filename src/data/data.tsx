@@ -313,5 +313,5 @@ export const socialLinks: Social[] = [
     {label: 'Github', Icon: GithubIcon, href: 'https://github.com/Thefoxy1978'},
     {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/giulio-gentile-a37152215/'},
     {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/thefoxy1978/'},
-    {label: 'Email', Icon: EmailIcon, href: 'mailto:gengiulio2@gmail.com'},
+    {label: 'Email', Icon: EmailIcon, href: 'mailto:thefoxy19780@gmail.com'},
 ];
