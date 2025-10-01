@@ -248,6 +248,12 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://github.com/Thefoxy1978/TagGameCode',
     image: porfolioImage8,
 },
+  {
+    title: 'PaintCoreExperience - VR Experience',
+    description: 'VR game,developed on Unity.',
+    url: '', //to do add a link
+    image: porfolioImage8,
+},
     
   
 ];
