@@ -1,16 +1,30 @@
+import {
+  AcademicCapIcon,
+  ArrowDownTrayIcon,
+  CalendarIcon,
+  FlagIcon,
+  MapIcon,
+  SparklesIcon,
+} from '@heroicons/react/24/outline';
+
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import EmailIcon from '../components/Icon/QuoteIcon';
+import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
+import profilepic from '../images/profilepic.jpg';
 import {
-
+  About,
+  Hero,
   HomepageMeta,
   PortfolioItem,
   SkillGroup,
@@ -30,6 +44,8 @@ export const homePageMeta: HomepageMeta = {
  * Section definition
  */
 export const SectionId = {
+  Hero: 'hero',
+  About: 'about',
   Portfolio: 'portfolio',
   Resume: 'resume',
   Skills: 'skills',
@@ -37,6 +53,51 @@ export const SectionId = {
 } as const;
 
 export type SectionId = (typeof SectionId)[keyof typeof SectionId];
+
+/**
+ * Hero section
+ */
+export const heroData: Hero = {
+  imageSrc: heroImage,
+  name: `I'm Giulio Gentile.`,
+  description: (
+    <>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+              I'm a <strong className="text-stone-100">Game Developer</strong>, im currently working on several 
+              <strong className="text-stone-100"> Decompilation Projects</strong>  and 
+              <strong className="text-stone-100"> Video Game Projects</strong>.
+      </p>
+      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
+        In my free time, I like to create Mods for <strong className="text-stone-100"> Games or Consoles</strong>,
+              or i go live on twitch where I usually do <strong className="text-stone-100"> Speedruns</strong>
+      </p>
+    </>
+  ),
+  actions: [
+    {
+          href: 'https://drive.google.com/file/d/1IskQiUj7Ji0DX7HXr4ZfGtxIk_jfCndX/view?usp=sharing',
+      text: 'Resume',
+      primary: true,
+      Icon: ArrowDownTrayIcon,
+    },
+  ],
+};
+
+/**
+ * About section
+ */
+export const aboutData: About = {
+  profileImageSrc: profilepic,
+    description: `I mainly work as a gameplay programmer or UI programmer, I work on Unity or Unreal Engine 5. I am a very sociable and open person who is not afraid to face new challenges.`,
+  aboutItems: [
+    {label: 'Age', text: '23', Icon: CalendarIcon},
+    {label: 'Location', text: 'Benevento, BN', Icon: MapIcon},
+    {label: 'Nationality', text: 'Italian', Icon: FlagIcon},
+    {label: 'Interests', text: 'VideoGame, Electronics, Nature', Icon: SparklesIcon},
+    {label: 'Accademy', text: 'AIV - Game Developer', Icon: AcademicCapIcon},
+    {label: 'Graduate', text: 'IT Technology', Icon: AcademicCapIcon}
+  ],
+};
 
 /**
  * Skills section
@@ -135,6 +196,7 @@ export const skills: SkillGroup[] = [
         ],
     },
 ];
+
 /**
  * Portfolio section
  */
@@ -170,6 +232,12 @@ export const portfolioItems: PortfolioItem[] = [
         image: porfolioImage5,
     },
     {
+        title: 'Operation Force',
+        description: '3D game,developed on UE5 with another programmer in just 2 weeks.',
+        url: 'https://youtu.be/PH-Xci30Ci0',
+        image: porfolioImage6,
+    },
+    {
       title: 'Nexum ',
       description: '3D game,developed on Unity with another 2 programmer in just 3 weeks.',
       url: 'https://github.com/Thefoxy1978/Nexum-CODE',
@@ -181,10 +249,16 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://github.com/Thefoxy1978/TagGameCode',
     image: porfolioImage8,
 },
-
+  {
+    title: 'PaintCoreExperience - VR Experience',
+    description: 'VR game,developed on Unity.',
+    url: '', //to do add a linkd
+    image: porfolioImage9,
+},
     
   
 ];
+
 /**
  * Resume section -- TODO: Standardize resume contact format or offer MDX
  */
@@ -203,6 +277,7 @@ export const education: TimelineItem[] = [
       content: <p>Expanded knowledge of C, C++, C# dedicated to the world of software and video games, and a great education on game engines such as Unity and Unreal Engine.</p>,
   },
 ];
+
 export const experience: TimelineItem[] = [
   {
     date: 'July 2021 - Present',
@@ -235,6 +310,9 @@ export const experience: TimelineItem[] = [
         ),
     },
 ];
+
+
+
 /**
  * Social items
  */
