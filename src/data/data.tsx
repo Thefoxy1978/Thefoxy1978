@@ -252,7 +252,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'PaintCoreExperience - VR Experience',
     description: 'VR game,developed on Unity.',
-    url: '', //to do add a link
+    url: '', //to do add a linkd
     image: porfolioImage9,
 },
     
