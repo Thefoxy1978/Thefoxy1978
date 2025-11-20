@@ -170,12 +170,6 @@ export const portfolioItems: PortfolioItem[] = [
         image: porfolioImage5,
     },
     {
-        title: 'Operation Force',
-        description: '3D game,developed on UE5 with another programmer in just 2 weeks.',
-        url: 'https://youtu.be/PH-Xci30Ci0',
-        image: porfolioImage6,
-    },
-    {
       title: 'Nexum ',
       description: '3D game,developed on Unity with another 2 programmer in just 3 weeks.',
       url: 'https://github.com/Thefoxy1978/Nexum-CODE',
@@ -187,71 +181,7 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://github.com/Thefoxy1978/TagGameCode',
     image: porfolioImage8,
 },
-  {
-    title: 'PaintCoreExperience - VR Experience',
-    description: 'VR game,developed on Unity.',
-    url: '', //to do add a link
-    image: porfolioImage9,
-},
-    
-  
-];
 
-export const portfolioItems2: PortfolioItem[] = [
-  {
-    title: 'Shy Miner',
-        description: '2D platform game, developed with 2 other people.',
-        url: 'https://github.com/Thefoxy1978/Shy-Miner',
-    image: porfolioImage1,
-  },
-  {
-    title: 'Alive',
-      description: '2D game, using a proprietary engine "AIV fast 2D".',
-      url: 'https://github.com/Thefoxy1978/EngineGame',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Super Orange',
-      description: 'Endless 3D game, developed with 2 other people using Unity.',
-      url: 'https://github.com/Thefoxy1978/Super-Orange',
-    image: porfolioImage3,
-  },
-  {
-      title: 'MediEvil Decompilation',
-      description: 'Contributor to the MediEvil Decompilation project.',
-      url: 'https://github.com/MediEvilDecompilation/medievil-decomp',
-    image: porfolioImage4,
-    },
-    {
-        title: 'Emily IA',
-        description: 'Project used to test OpenAI Unity Package.',
-        url: 'https://thefoxy1978.itch.io/emily-ia',
-        image: porfolioImage5,
-    },
-    {
-        title: 'Operation Force',
-        description: '3D game,developed on UE5 with another programmer in just 2 weeks.',
-        url: 'https://youtu.be/PH-Xci30Ci0',
-        image: porfolioImage6,
-    },
-    {
-      title: 'Nexum ',
-      description: '3D game,developed on Unity with another 2 programmer in just 3 weeks.',
-      url: 'https://github.com/Thefoxy1978/Nexum-CODE',
-      image: porfolioImage7,
-  },
-  {
-    title: 'TagPlay',
-    description: '3D game,developed on UE5 using c++.',
-    url: 'https://github.com/Thefoxy1978/TagGameCode',
-    image: porfolioImage8,
-},
-  {
-    title: 'PaintCoreExperience - VR Experience',
-    description: 'VR game,developed on Unity.',
-    url: '', //to do add a linkd
-    image: porfolioImage9,
-},
     
   
 ];
