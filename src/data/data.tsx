@@ -259,6 +259,10 @@ export const portfolioItems: PortfolioItem[] = [
   
 ];
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of 1109677 (update 3)
 /**
  * Resume section -- TODO: Standardize resume contact format or offer MDX
  */
