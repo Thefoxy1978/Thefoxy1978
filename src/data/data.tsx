@@ -261,6 +261,10 @@ export const portfolioItems: PortfolioItem[] = [
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of 1109677 (update 3)
 =======
 
 >>>>>>> parent of 1109677 (update 3)
