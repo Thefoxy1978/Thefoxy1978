@@ -1,17 +1,7 @@
-import {
-  AcademicCapIcon,
-  ArrowDownTrayIcon,
-  CalendarIcon,
-  FlagIcon,
-  MapIcon,
-  SparklesIcon,
-} from '@heroicons/react/24/outline';
-
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import EmailIcon from '../components/Icon/QuoteIcon';
-import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
@@ -20,7 +10,7 @@ import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import {
-  Hero,
+
   HomepageMeta,
   PortfolioItem,
   SkillGroup,
