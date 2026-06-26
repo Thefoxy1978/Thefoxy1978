@@ -86,7 +86,7 @@ export const heroData: Hero = {
  * About section
  */
 export const aboutData: About = {
-  profileImageSrc: profilepic,
+  //profileImageSrc: profilepic,
     description: `I mainly work as a gameplay programmer or UI programmer, I work on Unity or Unreal Engine 5. I am a very sociable and open person who is not afraid to face new challenges.`,
   aboutItems: [
     {label: 'Age', text: '23', Icon: CalendarIcon},
