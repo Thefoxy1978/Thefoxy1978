@@ -20,6 +20,7 @@ import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
+import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
@@ -251,39 +252,13 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'PaintCoreExperience - VR Experience',
     description: 'VR game,developed on Unity.',
-<<<<<<< HEAD
-<<<<<<< HEAD
     url: '', //to do add a linkd
     image: porfolioImage9,
-=======
-    url: '', //to do add a link
-    image: porfolioImage8,
->>>>>>> parent of e5f939f (f)
-=======
-    url: '', //to do add a link
-    image: porfolioImage8,
->>>>>>> parent of e5f939f (f)
-},
-    
-  
+  },
+
 ];
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> parent of 1109677 (update 3)
-=======
-
->>>>>>> parent of 1109677 (update 3)
-=======
-
->>>>>>> parent of 1109677 (update 3)
-=======
-
->>>>>>> parent of 1109677 (update 3)
 /**
  * Resume section -- TODO: Standardize resume contact format or offer MDX
  */
