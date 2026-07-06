@@ -21,6 +21,7 @@ import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
+import profilepic from '../images/profilepic.jpg';
 import {
   About,
   Hero,
@@ -86,8 +87,7 @@ export const heroData: Hero = {
  * About section
  */
 export const aboutData: About = {
-  //profileImageSrc: profilepic,
-    description: `I mainly work as a gameplay programmer or UI programmer, I work on Unity or Unreal Engine 5. I am a very sociable and open person who is not afraid to face new challenges.`,
+  description: `I mainly work as a gameplay programmer or UI programmer, I work on Unity or Unreal Engine 5. I am a very sociable and open person who is not afraid to face new challenges.`,
   aboutItems: [
     {label: 'Age', text: '23', Icon: CalendarIcon},
     {label: 'Location', text: 'Benevento, BN', Icon: MapIcon},
