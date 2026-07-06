@@ -21,7 +21,6 @@ import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import profilepic from '../images/profilepic.jpg';
 import {
   About,
   Hero,
@@ -257,7 +256,6 @@ export const portfolioItems: PortfolioItem[] = [
   },
 
 ];
-
 
 /**
  * Resume section -- TODO: Standardize resume contact format or offer MDX
