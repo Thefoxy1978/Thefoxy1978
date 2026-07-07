@@ -20,6 +20,7 @@ import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
+import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import {
   About,
   Hero,
@@ -102,19 +103,6 @@ export const aboutData: About = {
  * Skills section
  */
 export const skills: SkillGroup[] = [
-  {
-    name: 'Spoken languages',
-    skills: [
-      {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'Italian',
-        level: 10,
-      },
-    ],
-  },
   {
       name: 'Languages',
     skills: [
@@ -207,12 +195,31 @@ export const skills: SkillGroup[] = [
             },
         ],
     },
+    {
+    name: 'Spoken languages',
+    skills: [
+      {
+        name: 'English',
+        level: 10,
+      },
+      {
+        name: 'Italian',
+        level: 10,
+      },
+    ],
+  },
 ];
 
 /**
  * Portfolio section
  */
 export const portfolioItems: PortfolioItem[] = [
+   {
+    title: 'FBC: Firebreak Remedy',
+        description: 'Quality Assurance, testing the game and reporting bugs.',
+        url: 'https://store.steampowered.com/app/2272540/FBC_Firebreak/',
+    image: porfolioImage10,
+  },
   {
     title: 'Shy Miner',
         description: '2D platform game, developed with 2 other people.',
