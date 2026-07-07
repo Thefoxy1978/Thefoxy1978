@@ -88,6 +88,7 @@ export const heroData: Hero = {
 export const aboutData: About = {
   description: `I mainly work as a gameplay programmer or UI programmer, I work on Unity or Unreal Engine 5. I am a very sociable and open person who is not afraid to face new challenges.`,
   aboutItems: [
+    {label: 'jj', text: '23', Icon: CalendarIcon},
     {label: 'Location', text: 'Benevento, BN', Icon: MapIcon},
     {label: 'Nationality', text: 'Italian', Icon: FlagIcon},
     {label: 'Interests', text: 'VideoGame, Electronics, Nature', Icon: SparklesIcon},
