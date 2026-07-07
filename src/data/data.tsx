@@ -8,7 +8,6 @@ import {
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import EmailIcon from '../components/Icon/QuoteIcon';
 import heroImage from '../images/header-background.webp';
@@ -63,11 +62,11 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
               <strong className="text-stone-100">Gameplay Programmer</strong>, with 1+ years contributing 
-              <strong className="text-stone-100"> AAA titles</strong>,
+              <strong className="text-stone-100"> AAA titles</strong>
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
               Specializing in <strong className="text-stone-100">Gameplay Systems</strong>, 
-              <strong className="text-stone-100"> Player Interaction mechanics</strong> and <strong className="text-stone-100">Quality Assurance</strong>.
+              <strong className="text-stone-100"> Player Interaction mechanics</strong> and <strong className="text-stone-100">Quality Assurance</strong>
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time, I like to create  <strong className="text-stone-100"> Mods or Tools</strong>
@@ -91,9 +90,9 @@ export const aboutData: About = {
   description: `I mainly work as a gameplay programmer or UI programmer, I work on Unity or Unreal Engine 5. I am a very sociable and open person who is not afraid to face new challenges.`,
   aboutItems: [
     //{label: 'jj', text: '23', Icon: CalendarIcon},
-    {label: 'Location', text: 'Benevento, BN', Icon: MapIcon},
+    {label: 'Location', text: 'Benevento', Icon: MapIcon},
     {label: 'Nationality', text: 'Italian', Icon: FlagIcon},
-    {label: 'Interests', text: 'VideoGame, Electronics, Nature', Icon: SparklesIcon},
+    {label: 'Interests', text: 'VideoGames, Electronics, Preservation', Icon: SparklesIcon},
     {label: 'Accademy', text: 'AIV - Game Developer', Icon: AcademicCapIcon},
     {label: 'Graduate', text: 'IT Technology', Icon: AcademicCapIcon}
   ],
@@ -117,30 +116,30 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-      name: 'Programming Languages',
+      name: 'Languages',
     skills: [
-      {
-        name: 'C#',
-        level: 10,
-      },
       {
         name: 'C++',
         level: 10,
       },
       {
-        name: 'C',
+        name: 'C#',
+        level: 10,
+      },
+      {
+        name: 'Python',
         level: 10,
         },
         {
-            name: 'Python',
+            name: 'GLSL',
             level: 10,
         },
         {
-            name: 'PHP',
+            name: 'Lua',
             level: 10,
         },
         {
-          name: 'Lua',
+          name: 'Blueprint Visual Scripting',
           level: 10,
       },
     ],
@@ -149,15 +148,19 @@ export const skills: SkillGroup[] = [
       name: 'Game Engine',
     skills: [
       {
-        name: 'Unity',
+        name: 'Unreal Engine 5',
         level: 10,
       },
       {
-        name: 'Unreal Engine 5',
+        name: 'Unreal Engine 4',
         level: 10,
         },
         {
-            name: 'Game Maker Studio ',
+            name: 'Unity',
+            level: 10,
+        },
+        {
+            name: 'Godot',
             level: 10,
         },
     ],
@@ -166,7 +169,7 @@ export const skills: SkillGroup[] = [
         name: 'Tools',
         skills: [
             {
-                name: 'Visual Code Studio',
+                name: 'Git',
                 level: 10,
             },
             {
@@ -174,23 +177,32 @@ export const skills: SkillGroup[] = [
                 level: 10,
             },
             {
-                name: 'Git Hub',
+                name: 'Perforce',
                 level: 10,
             },
             {
-              name: 'Eclipse',
+              name: 'Rider',
               level: 10,
             },
             {
-                name: 'Photoshop',
+                name: 'Wwise',
                 level: 10,
             },
             {
-                name: 'HxD',
+                name: 'FMOD',
                 level: 10,
             },
             {
                 name: 'Ghidra',
+                level: 10,
+            },
+        ],
+    },
+    {
+        name: 'Platforms',
+        skills: [
+            {
+                name: 'PC',
                 level: 10,
             },
         ],
@@ -318,6 +330,5 @@ export const experience: TimelineItem[] = [
 export const socialLinks: Social[] = [
     {label: 'Github', Icon: GithubIcon, href: 'https://github.com/Thefoxy1978'},
     {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/giulio-gentile-a37152215/'},
-    {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/thefoxy1978/'},
     {label: 'Email', Icon: EmailIcon, href: 'mailto:thefoxy19780@gmail.com'},
 ];
