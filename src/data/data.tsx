@@ -311,6 +311,20 @@ export const education: TimelineItem[] = [
 ];
 
 export const experience: TimelineItem[] = [
+    {
+    date: 'March 2025 - April 2025',
+    location: 'Remedy Entertainment',
+    title: 'PlayTest - FBC: Firebreak',
+    content: (
+        <p>
+            Executed gameplay testing across multiple builds,
+            Performer functional and regression testing on game features,
+            Identified and reported bugs during gameplay sessions,
+            Re-tested fixes to ensure Issues were resolved correctly.
+        </p>
+        
+    ),
+},
   {
     date: 'July 2021 - Present',
     location: 'Progaming Italia',
@@ -321,27 +335,13 @@ export const experience: TimelineItem[] = [
       </p>
     ),
   },
-  {
-    date: 'March 2025 - April 2025',
-    location: 'Remedy Entertainment',
-    title: 'PlayTest - FBC: Firebreak',
-    content: (
-        <p>
-            Executed gameplay testing across multiple builds (FPS, proprietary engine, PC)
-            Performer functional and regression testing on game features
-            Identified and reported bugs during gameplay sessions
-            Re-tested fixes to ensure Issues were resolved correctly
-        </p>
-        
-    ),
-},
     {
         date: 'March 2019 - April 2019',
         location: 'Tree Hamester House',
         title: 'Game Developer, Tester',
         content: (
             <p>
-                Team made up of 3 people, the only title published was "shy miner".
+                Indie Team, the only title published was "shy miner".
             </p>
         ),
     },
