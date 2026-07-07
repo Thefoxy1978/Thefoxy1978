@@ -64,7 +64,7 @@ export const heroData: Hero = {
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
               <strong className="text-stone-100">Gameplay Programmer</strong>, with 1+ years contributing 
               <strong className="text-stone-100"> AAA titles</strong>,
-              Specializing in <strong className="text-stone-100">Gameplay Systems</strong>, 
+              Specializing in <strong className="text-stone-100">Gameplay Systems</strong>,                                                  
               <strong className="text-stone-100">Player Interaction mechanics</strong> and <strong className="text-stone-100">Quality Assurance</strong>.
 
       </p>
