@@ -90,7 +90,7 @@ export const heroData: Hero = {
  * About section
  */
 export const aboutData: About = {
-  description: `Passionate about creating and optimizing gameplay experiences and debugging. Currently exploring opportunities in indie, AA, and AAA studios as a Junior Game Programmer, aiming to contribute to gameplay systems and technical development. Always excited to talk about how to optimize games, new mechanics, or find bugs over lunch or coffee breaks..`,
+  description: `Passionate about creating and optimizing gameplay experiences and debugging. Currently exploring opportunities in indie, AA, and AAA studios as a Junior Game Programmer, aiming to contribute to gameplay systems and technical development. Always excited to talk about how to optimize games, new mechanics, or find bugs over lunch or coffee breaks.`,
   aboutItems: [
     //{label: 'jj', text: '23', Icon: CalendarIcon},
     {label: 'Location', text: 'Benevento', Icon: MapIcon},
@@ -296,17 +296,17 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'July 2021',
-    location: 'Istituto di Istruzione Superiore "S. Rampone',
-    title: 'Graduate IT Technology ',
+    date: 'Graduated July 2021',
+    title: 'IT & Telecommunications Studies',
+    location: 'Istituto di Istruzione Superiore "S. Rampone" | Benevento, BN',
         content: <p>
-            Graduate IT Technology, the basics I received in 5 years are: C, C#, C++, Python, PHP, HTML, CSS.</p>,
+            Relevant Coursework: Object Oriented Programming, Operating Systems, Data Structures and Algorithms.</p>,
   },
   {
-     date: 'July 2024',
-    location: 'AIV',
-    title: 'Game Developer',
-      content: <p>Expanded knowledge of C, C++, C# dedicated to the world of software and video games, and a great education on game engines such as Unity and Unreal Engine.</p>,
+    date: 'Graduated August 2024',
+    title: 'Game Programming & Software Development',
+    location: 'AIV Academy Italian Videogame | Milan, MI',
+      content: <p>Relevant Coursework: Object Oriented Programming, Graphics Programming, Game Engine Architecture.</p>,
   },
 ];
 
@@ -327,8 +327,12 @@ export const experience: TimelineItem[] = [
     title: 'PlayTest - FBC: Firebreak',
     content: (
         <p>
-            Test the game,report bugs in game and give feedback about the game.
+            Executed gameplay testing across multiple builds (FPS, proprietary engine, PC)
+            Performer functional and regression testing on game features
+            Identified and reported bugs during gameplay sessions
+            Re-tested fixes to ensure Issues were resolved correctly
         </p>
+        
     ),
 },
     {
