@@ -1,7 +1,7 @@
 import {
   AcademicCapIcon,
   ArrowDownTrayIcon,
-  CalendarIcon,
+  //CalendarIcon,
   FlagIcon,
   MapIcon,
   SparklesIcon,
@@ -62,19 +62,17 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-              <strong className="text-stone-100">Gameplay Programmer</strong>, im currently working on several 
-              <strong className="text-stone-100"> Decompilation Projects</strong>  and 
-              <strong className="text-stone-100"> Video Game Projects</strong>.
+              <strong className="text-stone-100">Gameplay Programmer</strong>, with 1+ years contributing 
+              <strong className="text-stone-100"> AAA titles</strong> 
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time, I like to create Mods for <strong className="text-stone-100"> Games or Consoles</strong>,
-              or i go live on twitch where I usually do <strong className="text-stone-100"> Speedruns</strong>
+        In my free time, I like to create  <strong className="text-stone-100"> Mods or Tools</strong>
       </p>
     </>
   ),
   actions: [
     {
-          href: 'https://drive.google.com/file/d/1IskQiUj7Ji0DX7HXr4ZfGtxIk_jfCndX/view?usp=sharing',
+      href: 'https://drive.google.com/file/d/1IskQiUj7Ji0DX7HXr4ZfGtxIk_jfCndX/view?usp=sharing',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -88,7 +86,7 @@ export const heroData: Hero = {
 export const aboutData: About = {
   description: `I mainly work as a gameplay programmer or UI programmer, I work on Unity or Unreal Engine 5. I am a very sociable and open person who is not afraid to face new challenges.`,
   aboutItems: [
-    {label: 'jj', text: '23', Icon: CalendarIcon},
+    //{label: 'jj', text: '23', Icon: CalendarIcon},
     {label: 'Location', text: 'Benevento, BN', Icon: MapIcon},
     {label: 'Nationality', text: 'Italian', Icon: FlagIcon},
     {label: 'Interests', text: 'VideoGame, Electronics, Nature', Icon: SparklesIcon},
