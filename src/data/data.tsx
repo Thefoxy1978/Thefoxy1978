@@ -90,7 +90,7 @@ export const heroData: Hero = {
  * About section
  */
 export const aboutData: About = {
-  description: `I mainly work as a gameplay programmer or UI programmer, I work on Unity or Unreal Engine 5. I am a very sociable and open person who is not afraid to face new challenges.`,
+  description: `Passionate about creating and optimizing gameplay experiences and debugging. Currently exploring opportunities in indie, AA, and AAA studios as a Junior Game Programmer, aiming to contribute to gameplay systems and technical development. Always excited to talk about how to optimize games, new mechanics, or find bugs over lunch or coffee breaks..`,
   aboutItems: [
     //{label: 'jj', text: '23', Icon: CalendarIcon},
     {label: 'Location', text: 'Benevento', Icon: MapIcon},
