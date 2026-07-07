@@ -21,6 +21,8 @@ import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
+import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import porfolioImage12 from '../images/portfolio/portfolio-12.jpg';
 import {
   About,
   Hero,
@@ -220,36 +222,42 @@ export const portfolioItems: PortfolioItem[] = [
         url: 'https://store.steampowered.com/app/2272540/FBC_Firebreak/',
     image: porfolioImage10,
   },
-  {
-    title: 'Shy Miner',
-        description: '2D platform game, developed with 2 other people.',
-        url: 'https://github.com/Thefoxy1978/Shy-Miner',
-    image: porfolioImage1,
+    {
+    title: 'Silent Hill 3 - Decompilation',
+    description: 'Contributor to the Silent Hill 3 Decompilation project.',
+    url: 'https://github.com/dreamingmoths/memory-of-alessa',
+    image: porfolioImage11,
   },
-  {
-    title: 'Alive',
-      description: '2D game, using a proprietary engine "AIV fast 2D".',
-      url: 'https://github.com/Thefoxy1978/EngineGame',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Super Orange',
-      description: 'Endless 3D game, developed with 2 other people using Unity.',
-      url: 'https://github.com/Thefoxy1978/Super-Orange',
-    image: porfolioImage3,
-  },
-  {
+     {
+      title: 'XMB PS3 To PC',
+      description: 'C++ and DirectX 11 recreation of the PS3 interface for PC.',
+      url: 'https://thefoxy1978.github.io/XMB/',
+    image: porfolioImage12,
+    },
+    {
       title: 'MediEvil Decompilation',
       description: 'Contributor to the MediEvil Decompilation project.',
       url: 'https://github.com/MediEvilDecompilation/medievil-decomp',
     image: porfolioImage4,
     },
     {
-        title: 'Emily IA',
-        description: 'Project used to test OpenAI Unity Package.',
-        url: 'https://thefoxy1978.itch.io/emily-ia',
-        image: porfolioImage5,
+      title: 'Corpse Party Localization',
+      description: 'Custom Python tools for game translation and asset injection.',
+      url: 'https://thefoxy1978.github.io/patch-ita-update/',
+      image: porfolioImage9,
     },
+  {
+    title: 'Alive',
+      description: 'Modular C++ engine architecture and rendering systems.',
+      url: 'https://github.com/Thefoxy1978/EngineGame',
+    image: porfolioImage2,
+  },
+  {
+    title: 'Super Orange',
+      description: 'Android game development focusing on player controller and gameplay interactions.',
+      url: 'https://github.com/Thefoxy1978/Super-Orange',
+    image: porfolioImage3,
+  },
     {
         title: 'Operation Force',
         description: '3D game,developed on UE5 with another programmer in just 2 weeks.',
@@ -264,16 +272,22 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'TagPlay',
-    description: '3D game,developed on UE5 using c++.',
+    description: 'NPC behavior and gameplay logic development in Unreal Engine 5 using c++.',
     url: 'https://github.com/Thefoxy1978/TagGameCode',
     image: porfolioImage8,
 },
-  {
-    title: 'PaintCoreExperience - VR Experience',
-    description: 'VR game,developed on Unity.',
-    url: '', //to do add a linkd
-    image: porfolioImage9,
+   {
+    title: 'Shy Miner',
+        description: '2D platform game, developed with 2 other people.',
+        url: 'https://github.com/Thefoxy1978/Shy-Miner',
+    image: porfolioImage1,
   },
+      {
+        title: 'Emily IA',
+        description: 'Project used to test OpenAI Unity Package.',
+        url: 'https://thefoxy1978.itch.io/emily-ia',
+        image: porfolioImage5,
+    },
 
 ];
 
